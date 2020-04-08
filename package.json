@@ -2,13 +2,15 @@
   "name": "next-app",
   "version": "0.1.0",
   "private": true,
+  "license": "ISC",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
     "next": "9.3.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
